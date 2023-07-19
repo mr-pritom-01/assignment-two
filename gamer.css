@@ -201,7 +201,8 @@ body .online-games {
     margin-top: 8%;
     text-align: center;
     gap: 0;
-    width: 70%;}
+    width: 70%;
+}
 
 .online-games h2 {
     color: #0B0223;
@@ -238,3 +239,37 @@ body .online-games {
     height: 250px;
     margin-top: 15px;
 }
+
+/* play instantly setion starts */
+.play-instantly {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.the-text {
+    text-align: end;
+}
+
+.the-text h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.the-text p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.man-gun {
+    width: 100%;
+}
+
+/* careers section starts */
+
