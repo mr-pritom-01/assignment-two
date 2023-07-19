@@ -2,6 +2,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700;800&display=swap');
 
+/* commmon shared styles */
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    box-shadow: 0.1px 0.1px 3px;
+    padding: 1px;
+    border: 1px solid purple;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 1px solid purple;
+    box-shadow: 0.1px 0.1px 3px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.common-color {
+    color: #F948B2;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -47,11 +70,17 @@ body .online-games {
     display: flex;
     list-style: none;
     gap: 20px;
-    width: 40%;
+    width: 50%;
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
     font-size: 18px;
+}
+
+.nav-option .gray {
+    background-color: lightgray;
+    padding: 8px;
+    border-radius: 5px;
 }
 
 /* banner section starts */
@@ -240,6 +269,19 @@ body .online-games {
     margin-top: 15px;
 }
 
+.box-img:hover {
+    border: 3px solid #F948B2;
+    border-radius: 16px;
+}
+
+
+.funny-vdeo {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* play instantly setion starts */
 .play-instantly {
     display: flex;
@@ -356,7 +398,11 @@ body .online-games {
     width: 230px;
     justify-content: center;
     margin-bottom: 20px;
-    box-shadow: 0.1px 0.1px;
+}
+
+.game-box:hover {
+    color: #FF42A5;
+    border: 1px solid #FF42A5;
 }
 
 /* footer section starts here */
@@ -402,10 +448,10 @@ footer {
 
 .alert-line {
     color: rgba(255, 255, 255, 0.60);
-font-size: 16px;
-font-weight: 500;
-display: flex;
-justify-content: center;
-gap: 55px;
-margin-top: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 100px;
 }
