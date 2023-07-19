@@ -8,6 +8,11 @@
     font-family: work sans;
 }
 
+body .online-games {
+    margin: auto;
+
+}
+
 /* header section */
 .head-container {
     display: flex;
@@ -46,6 +51,7 @@
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
+    font-size: 18px;
 }
 
 /* banner section starts */
@@ -70,8 +76,8 @@
 }
 
 .banner-info {
-text-align: center;
-margin-top: 25%;
+    text-align: center;
+    margin-top: 25%;
 }
 
 .banner-info h2 {
@@ -126,4 +132,109 @@ margin-top: 25%;
     border: none;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* gamer secton starts here */
+
+.gamer-container {
+    height: 50vh;
+    display: flex;
+    padding: 5%;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-bottom: 45px;
+    justify-content: space-around;
+}
+
+.gamer-picture {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.gamer-info {
+    width: 50%;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+}
+
+.gamer-info h2 {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.gamer-info p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.gamer-info h5 {
+    margin-top: 25px;
+}
+
+.gamer-info h5 .our-purpose {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.gamer-info h5 .unleash {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* online games funny videos sections starts here */
+
+.online-games {
+    height: 75vh;
+    margin-top: 8%;
+    text-align: center;
+    gap: 0;
+    width: 70%;}
+
+.online-games h2 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+.online-games p {
+    color: #534C64;
+    ;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    border-radius: 16px;
+    height: 385px;
+    width: 230px;
+    box-shadow: 1px 1px 5px;
+
+}
+
+.box-img {
+    width: auto;
+    height: 250px;
+    margin-top: 15px;
 }
