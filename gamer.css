@@ -267,9 +267,62 @@ body .online-games {
     line-height: 30px;
     margin-top: 20px;
 }
+
 .man-gun {
     width: 100%;
 }
 
 /* careers section starts */
 
+.career-section {
+    height: 115vh;
+    border: 3px solid red;
+    background-image: url('images/Group\ 65.png'), linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-position: right;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.career-info {
+    width: 35%;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.career-info h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.career-info p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.points {
+    display: flex;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.right-points {
+    text-align: end;
+}
+
+.btn-3 {
+    margin-top: 20px;
+    border-radius: 48px;
+    background: #FFF;
+    padding: 21px 40px;
+    gap: 10px;
+    border: none;
+    color: #FF42A5;
+    font-size: 20px;
+font-weight: 600;
+}
