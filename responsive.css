@@ -1,5 +1,8 @@
-@media screen and (max-width:570px) {
-    .nav-option {
+@media screen and (max-width:600px) {
+    .head-container, .nav-option, .logos, .banner-container, .gamer-container {
         flex-direction: column;
+    }
+    .nav-option {
+        width: fit-content;
     }
 }
