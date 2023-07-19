@@ -275,8 +275,7 @@ body .online-games {
 /* careers section starts */
 
 .career-section {
-    height: 115vh;
-    border: 3px solid red;
+    height: 112vh;
     background-image: url('images/Group\ 65.png'), linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     background-position: right;
     background-repeat: no-repeat;
@@ -324,5 +323,33 @@ body .online-games {
     border: none;
     color: #FF42A5;
     font-size: 20px;
-font-weight: 600;
+    font-weight: 600;
+}
+
+/* some games sections starts here */
+
+.some-games {
+    display: flex;
+    margin-top: 20px;
+    height: 50vh;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.some-games div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.game-box {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    border-radius: 328px;
+    width: 210px;
+    justify-content: center;
+    margin-bottom: 20px;
+    box-shadow: 0.1px 0.1px;
 }
