@@ -1,8 +1,11 @@
 @media screen and (max-width:600px) {
-    .head-container, .nav-option, .logos, .banner-container, .gamer-container {
+    .head-container, .nav-option, .logos, .banner-container, .gamer-container, .boxes, .play-instantly {
         flex-direction: column;
     }
     .nav-option {
         width: fit-content;
     }
 }
+
+/* চেষ্টা করেছি আনেক, পারলাম না */
+

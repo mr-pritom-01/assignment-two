@@ -106,8 +106,9 @@ body .online-games {
 }
 
 .banner-info {
-    text-align: center;
+    text-align: left;
     margin-top: 25%;
+    padding-left: 20%;
 }
 
 .banner-info h2 {
@@ -230,7 +231,7 @@ body .online-games {
     margin-top: 8%;
     text-align: center;
     gap: 0;
-    width: 70%
+    width: 70%;
 }
 
 .online-games h2 {
